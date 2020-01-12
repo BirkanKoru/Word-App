@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.memorize.GroupActivity" >
+
+    <item
+        android:id="@+id/action_bar_btn_settings"
+        android:icon="@drawable/ic_change"
+        android:title="@string/action_bar_settings_name"
+        app:showAsAction="always"/>
+</menu>

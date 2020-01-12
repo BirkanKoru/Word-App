@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Memorize</string>
+
+
+    <string name="action_bar_add_name">Add</string>
+    <string name="action_bar_quizz_name">Quizz</string>
+    <string name="action_bar_settings_name">Settings</string>
+
+    <string name="btn_addGroup_name">Add Group</string>
+    <string name="btn_addWord_name">Add Word</string>
+
+    <string name="btn_editGroup_name">Edit Group</string>
+    <string name="btn_editWord_name">Edit Word</string>
+
+</resources>

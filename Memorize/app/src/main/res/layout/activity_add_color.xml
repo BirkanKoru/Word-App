@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddColorActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <Spinner
+        android:id="@+id/spinner_groups"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="50sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:layout_marginHorizontal="50sp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_colorPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:src="@mipmap/ic_colorpicker"
+            android:background="@color/colorWhite"/>
+
+        <TextView
+            android:layout_marginLeft="100sp"
+            android:text="Color:"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_showColor"
+            android:layout_marginLeft="10sp"
+            android:background="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_colorAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="Add Color"
+        android:background="@color/colorOrange1"/>
+</LinearLayout>
